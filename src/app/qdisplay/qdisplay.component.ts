@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./qdisplay.component.css']
 })
 export class QdisplayComponent implements OnInit {
-  public quote="#quote"
+  public quote="quote"
 
   constructor() { }
 

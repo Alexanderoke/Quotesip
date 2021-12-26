@@ -7,13 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
   public date= new Date()
+  input="#quote"
 
   constructor() { }
 
   ngOnInit(): void {
   }
   onClick(){
-    alert()
+     document.getElementById("quote")! as HTMLElement;
+     
   }
 
 }

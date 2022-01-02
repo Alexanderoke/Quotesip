@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-qdisplay',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./qdisplay.component.css']
 })
 export class QdisplayComponent implements OnInit {
- input= document.getElementById("quote")!as HTMLElement;
+ @Input() quotes:any;
  
 
   constructor() { }

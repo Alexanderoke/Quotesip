@@ -11,12 +11,11 @@ This web application let's the user enter quotes and post the quotes for viewing
 No servers, installations or any dependecies needed.
 ## Live link
 ## Known Bugs
-The web app does not function as expected
+The web app does not function as expected, the quote posts, but when a new quote is posted it overwrites the old one.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+The web application was built on angular frame work based on html, css, javascript and typescript.
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+Feel free to reach out to me via git hub for any suggestions.
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 This is under the [MIT](LICENSE) license
 Copyright (c) {year} **{List of contributors or company name}**

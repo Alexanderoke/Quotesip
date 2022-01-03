@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
   public date= new Date()
-  quote:any;
+  quote:any=[""];
 
   constructor() { }
 

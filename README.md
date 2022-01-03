@@ -1,27 +1,22 @@
-# Quotes
+# Quotes Application.
+#### quotes application for posting quotes, 01/2022
+#### By Alexander Oke.
+## Description
+This web application let's the user enter quotes and post the quotes for viewing users toget inspired, the quotes get an pvote or a down vote depending on how inspiring the reader finds it. 
+## Setup/Installation Requirements
+* Clone the repo {git clone https://github.com/Alexanderoke/Quotesip.git
+* run the web app ona browser of your choice.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+No servers, installations or any dependecies needed.
+## Live link
+## Known Bugs
+The web app does not function as expected
+## Technologies Used
+{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+## Support and contact details
+{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+### License
+*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+This is under the [MIT](LICENSE) license
+Copyright (c) {year} **{List of contributors or company name}**

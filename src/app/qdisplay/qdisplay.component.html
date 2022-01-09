@@ -1,9 +1,9 @@
-<h1>Quote Display!</h1>
 <div class="qdisplay" >
-  <div *ngFor= "let i of quotes; index as quotenumber" >
-    {{quotenumber + 1}}
+<h1>Quote Display!</h1><hr>
+  <div class="quoted" *ngFor= "let i of quotes; index as quotenumber" >
+    <p>{{quotenumber + 1}}</p>
   {{i}}
-  <button (click)= "onDelete(quotenumber)" >Remove Quote</button>
+  <button class="btn" (click)= "onDelete(quotenumber)" >Remove Quote</button>
   <div class="details" >Quote Details</div>
 </div>
 </div>

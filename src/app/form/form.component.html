@@ -1,8 +1,9 @@
 <div class="form" >
-  <div class="qhead" >
+  
 <h2>Enter your Quote</h2>
-</div>
+
 <form class="form-control">
+  <input type="text" placeholder="Author" ><br>
 <textarea #box cols="30" [placeholder]= "Quote" rows="10" value=""></textarea><br><br>
 <button class="btn" (click)= "postQuote(box.value)" >Post <br>Quote</button>
 </form>

@@ -1,26 +1,29 @@
 
 h1{
-  color: aliceblue;
+  color: rgb(64, 154, 233);
   text-align-last: center;
   flood-opacity: 120%;
 }
 .qdisplay{
   padding: 0.7rem;
-  text-align: center;
+  
   background-image:repeating-linear-gradient(whitesmoke, grey);
   width:100%;
   border-radius: 10px;
+  margin: 0.25rem;
+  
   
 }
 .quoted{
   color:black;
-  align-content:space-around;
+  align-content:center;
 
 }
 .btn{
   width: 25%;
   height: 100%;
   background-color: brown;
+  size: 0.5rem;
 
 }
 .details{

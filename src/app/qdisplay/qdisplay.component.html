@@ -2,7 +2,7 @@
 <h1>Quote Display!</h1><hr>
   <div class="quoted" *ngFor= "let i of quotes; index as quotenumber" >
     <p>{{quotenumber + 1}}</p>
-  {{i}}
+  <p>{{i}}</p>
   <button class="btn" (click)= "onDelete(quotenumber)" >Remove Quote</button>
   <div class="details" >Quote Details</div>
 </div>

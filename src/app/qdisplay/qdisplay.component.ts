@@ -12,6 +12,7 @@ export class QdisplayComponent implements OnInit {
   this.quotes.splice(deleteMe,1);
  }
  
+ 
 
   constructor() { }
 

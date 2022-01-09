@@ -1,10 +1,13 @@
 .form{
-  background-color: grey;
+  background-image: linear-gradient( green,blue);
   padding: 100px;
+  border-radius: 50px;
 }
 .qhead{
   background-color: whitesmoke;
-
+  color: blue;
+  width: 50%;
+  
 }
 #quote{
   text-align: center;

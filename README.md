@@ -9,7 +9,9 @@ This web application let's the user enter quotes and post the quotes for viewing
 
 
 No servers, installations or any dependecies needed.
-## Live link
+## live link
+## https://alexanderoke.github.io/Quotesip/
+
 ## Known Bugs
 The web app does not function as expected, the quote posts, but when a new quote is posted it overwrites the old one.
 ## Technologies Used

@@ -7,6 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class QdisplayComponent implements OnInit {
  @Input() quotes:any;
+
+ onDelete(deleteMe:any){
+  this.quotes.splice(deleteMe,1);
+ }
  
 
   constructor() { }

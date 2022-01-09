@@ -1,5 +1,8 @@
-<p>qdisplay works!</p>
+<h1>Quote Display!</h1>
 <div class="qdisplay" >
-  <div></div>
-  <p>{{quotes}}</p>
+  <div *ngFor= "let i of quotes; index as quotenumber" >
+    {{quotenumber + 1}}
+  {{i}}
+  <button (click)= "onDelete(quotenumber)" >Remove Quote</button>
+</div>
 </div>

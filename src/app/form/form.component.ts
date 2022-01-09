@@ -1,3 +1,5 @@
+import { Quote } from '@angular/compiler';
+import { newArray } from '@angular/compiler/src/util';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,16 +8,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-  public date= new Date()
-  quote:any=[""];
+  Quote="Enter Quote"
+  quote:any=[];
+  
 
+  postQuote(val:any){
+    if(val.length>0){
+    this.quote.push(val);
+    val.value='';
+  }
+    
+  }
+  
+  
   constructor() { }
 
   ngOnInit(): void {
   }
-  postQuote(val:any){
-
-    this.quote=val;
-  }
+  
      
   }

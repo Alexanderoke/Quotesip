@@ -2,9 +2,10 @@
   <div class="qhead" >
 <p>Enter your Quote</p>
 </div>
-
-<textarea #box placeholder="Enter Quote" value=""></textarea><br><br>
-<button (click)= "postQuote(box.value)" >Post <br>Quote</button>
+<form class="form-control">
+<textarea #box [placeholder]= "Quote" value=""></textarea><br><br>
+<button class="btn" (click)= "postQuote(box.value)" >Post <br>Quote</button>
+</form>
 
 </div>
 <app-qdisplay [quotes]= "quote"></app-qdisplay>
